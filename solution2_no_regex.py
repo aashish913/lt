@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""Mad Libs"""
+
 
 import argparse
 import sys
@@ -10,7 +9,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description='Mad Libs',
+        description='ltproject',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('file',
