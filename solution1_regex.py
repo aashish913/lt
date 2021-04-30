@@ -30,7 +30,7 @@ def get_args():
 # --------------------------------------------------
 def main():
     """Make a jazz noise here"""
-
+ 
     args = get_args()
     inputs = args.inputs
     text = args.file.read().rstrip()
