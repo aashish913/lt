@@ -37,7 +37,7 @@ def main():
     blanks = re.findall('(<([^<>]+)>)', text)
 
     if not blanks:
-        sys.exit(f' "{args.file.name}" has no placeholders ')
+        sys.exit(f""{args.file.name}" has no placeholders ")
 
     tmpl = 'Give me {} {}: '
     for placeholder, pos in blanks:
